@@ -74,7 +74,7 @@ class VideoCapture:
             self.vid.release()
 
 # vid = VideoCapture(args.camera_idx)
-vid = VideoCapture("/home/tony/Dropbox/GaitNet/PRODUCT/testing_2019/Camera/longvideos/012.MP4")
+vid = VideoCapture("001.MP4")
 
 database = load_database()
 def check_database():
